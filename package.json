@@ -1,6 +1,7 @@
 {
   "name": "extension-webpack-boilerplate",
   "module": "index.ts",
+  "description": "A boilerplate template for building Chrome extensions using Webpack with vanilla TS/HTML/CSS.",
   "type": "module",
   "private": true,
   "devDependencies": {

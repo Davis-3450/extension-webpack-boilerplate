@@ -1,5 +1,7 @@
 # extension-webpack-boilerplate
 
+This is a boilerplate template for building Chrome extensions using Webpack with vanilla TS/HTML/CSS.
+
 To install dependencies:
 
 ```bash

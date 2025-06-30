@@ -17,5 +17,14 @@
   },
   "dependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "clean": "del-cli dist",
+    "build": "npm run clean && webpack --config webpack.config.js --mode=production",
+    "build:dev": "npm run clean && webpack --config webpack.config.js --mode=development",
+    "build:obfuscated": "echo: placeholder",
+    "watch": "echo: placeholder",
+    "type-check": "echo: placeholder",
+    "test": "echo: placeholder"
   }
 }
